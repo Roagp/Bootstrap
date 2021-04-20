@@ -1,0 +1,90 @@
+body {
+    background-color: #232323;
+  }
+  
+  /* HEIGHT */
+  .hg-1 {
+    height: 150px;
+  }
+  
+  .hg-2 {
+    height: 60px;
+  }
+  
+  /* BACKGROUND COLORS */
+  .bgGreen {
+    background-color: green;
+  }
+  
+  .bgRed {
+    background-color: red;
+  }
+  
+  .bgBlue {
+    background-color: blue;
+  }
+  
+  .bgGray {
+    background-color: lightgray;
+  }
+  
+  .bgVine {
+    background-color:#761616; 
+  }
+  
+  .bgBlueDark {
+    background-color: #162d76;
+  }
+  
+  .bgDarkPink {
+    background-color: #761659;
+  }
+  
+  .bgWhite {
+    background-color: #fff;
+  }
+  
+  /* BORDER */
+  .borderBlue {
+    border: 2px solid blue;
+  }
+  
+  .borderYellow {
+    border: 4px double yellow;
+  }
+  
+  .borderRed {
+    border: 4px dotted red;
+  }
+  
+  .borderPink {
+    border: 4px groove pink;
+  }
+  
+  /* GRADIENT BACKGROUND */
+  
+  .bg-grad-1 {
+    background: linear-gradient(to bottom, #009933 0%, #c41515 50%,#f3eff1 100%);
+  }
+  
+  .bg-grad-2 {
+    background: linear-gradient(to bottom right, #f00000 0%, #c51cbd 50%,#001866 100%);
+  } 
+  
+  .bg-grad-3 {
+    background: linear-gradient(to bottom left, #066112 0%,#e5f505 100%);
+  } 
+  
+  /* TARJETA */
+  .card {
+    width: 50%;
+    height: 90%;
+    padding: 0 3.5rem;
+    text-align: center;
+  }
+  
+  .card img {
+    height: 90px;
+    margin: 0 0 -20px 0;
+    border-radius: 0px;
+  }
