@@ -1,0 +1,56 @@
+.container {
+    height: 200px;
+}
+.bgRed {
+    background-color:brown;
+    height: 200px;
+}
+.bgGreen {
+    background-color:lightseagreen;
+}
+.container-fluid {
+    height: 50px;
+}
+.bgRed2 {
+    background-color:maroon;
+    height: 50px;
+}
+.bgGreen2 {
+    background-color:olive;
+    height: 50px;
+}
+.tres {
+  height: 150px;
+}
+.borde1 {
+    height: 150px;
+   border: solid;
+    color: blue;
+}
+.borde2 {
+    height: 150px;
+   border: solid;
+    color: rgba(229, 255, 0, 0.568);
+}
+.borde3 {
+    height: 150px;
+   border: solid;
+   border-style: dotted;
+    color: red;
+}
+.borde4 {
+    height: 150px;
+   border: solid;
+    color: palevioletred;
+}
+.borde5 {
+    height: 150px;
+   border: solid;
+    color: blue;
+}
+.borde6 {
+    height: 150px;
+   border: solid;
+    color: blue
+}
+
