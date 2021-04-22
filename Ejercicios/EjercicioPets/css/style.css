@@ -1,0 +1,49 @@
+nav {
+  background-color: #082b49;
+}
+nav .navegador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 15px 0;
+}
+nav li {
+  padding: 0 35px;
+}
+nav a {
+  color: white;
+}
+
+.bg-banner {
+  background-image: url(../images/bannerbg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.bg-banner .textBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: unset;
+  padding: 10%;
+}
+.bg-banner .textBanner p {
+  color: #ff9aaa;
+}
+.bg-banner .textBanner h1 {
+  color: #082b49;
+  font-weight: 300;
+  font-size: 60px;
+  word-spacing: 30px;
+}
+
+.mujerPerrete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}

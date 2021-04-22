@@ -1,7 +1,131 @@
 header .nav {
-    background-color: #222222;
-    z-index: 1;
-    width: 100%;
-    position: fixed;
-    padding: 1rem;
-  }
+  background-color: #222222;
+  z-index: 1;
+  width: 100%;
+  position: fixed;
+  padding: 1rem;
+  border-bottom: 3px solid #181818;
+}
+.logo h2 {
+  color: #ff8b00;
+  padding: 1rem 0 0 5rem;
+  font-size: 1.2rem;
+}
+.container-fluid ul {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  margin: 1rem 5rem;
+}
+.container-fluid ul li {
+  list-style: none;
+}
+.container-fluid ul li a {
+  color: #e7e7e7;
+  text-decoration: none;
+  padding-right: 2rem;
+}
+.container-fluid ul li a span {
+  color: #ff8b00;
+}
+header .container-fluid .hero {
+  background-image: url(image/hero_2.jpg);
+  background-position: top;
+  color: #e7e7e7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  width: 40vw;
+  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+.hero p {
+  padding-bottom: 3rem;
+}
+.hero .btn {
+  background-color: transparent;
+  border: 2px solid #e7e7e7;
+  padding: 0.2rem 1rem;
+}
+.services {
+  background-color: #222222;
+  color: #e7e7e7;
+}
+.services .contenedorServicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services .contenedorServicios h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 10rem;
+  color: #ff8b00;
+}
+.services .contenedorServicios p {
+  font-size: 0.8rem;
+  width: 40vw;
+  padding: 1rem 1rem;
+}
+.all-services {
+  background-color: #222222;
+  padding-bottom: 10rem;
+}
+
+section .card {
+  margin-top: 5rem;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: none;
+}
+
+section .card img {
+  width: 3rem;
+  height: 3rem;
+  background-color: #ff8b00;
+  border-radius: 50%;
+}
+section .card h3 {
+  color: #e7e7e7;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+section .card p {
+  color: #6a8289;
+  font-size: 1rem;
+}
+main section {
+  background-color:#222222 ;
+}
+section .card-mentor2{
+  padding: 0;
+}
+
+section .card-mentor1{
+ padding: 0;
+ margin: 6rem 0 0 0;
+
+}
+.mentor img{
+  width: 80%;
+}
+.mentor h2 {
+  color: #ff8b00;
+}
+.mentor p {
+  color: #6a8289;
+}
+.mentor li {
+  color: #6a8289;
+  list-style: none;
+ 
+}
+.mentor ul {
+  padding-left: 0;
+}

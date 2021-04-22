@@ -1,0 +1,80 @@
+@import "./variable";
+@import "./mixins";
+
+// LANDING PAGE
+nav {
+  background-color: $color01;
+
+  .navegador {
+    @include flexCenter;
+    list-style: none;
+    padding: 15px 0;
+  }
+  li {
+    padding: 0 35px;
+  }
+  a {
+    color: white;
+  }
+}
+.bg-banner {
+  background-image: url(../images/bannerbg.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  .textBanner {
+    @include flexCenter;
+    flex-direction: column;
+    align-items: unset;
+    padding: 10%;
+
+    p {
+      color: $color02;
+    }
+    h1 {
+      color: $color01;
+      font-weight: 300;
+      font-size: 60px;
+      word-spacing: 30px;
+    }
+  }
+}
+
+// PAGE 2
+.mujerPerrete {
+  @include flexCenter;
+  height: 70vh;
+  img {
+    width: 40%;
+  }
+}
+.textoHuella {
+  @include flexCenter;
+  .textCare {
+    width: 50%;
+  }
+}
+
+// PAGE 3
+.bgServices {
+  background-image: url(../images/perro1.png);
+  height: 100vh;
+  .col-12 {
+    text-align: center;
+    padding-top: 90px;
+  }
+  .card {
+    background-color: transparent;
+    border: 0;
+    align-items: center;
+  }
+  img {
+    width: 60%;
+  }
+  h5{
+      text-align: center;
+  }
+}
