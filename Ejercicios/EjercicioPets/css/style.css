@@ -1,23 +1,31 @@
+.pTopButton {
+  padding: 40px 0;
+}
+
+ul li {
+  list-style: none;
+}
+
 nav {
   background-color: #082b49;
 }
-nav .navegador {
+nav .linksNav {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
   padding: 15px 0;
 }
-nav li {
+nav .linksNav li {
   padding: 0 35px;
 }
-nav a {
+nav .linksNav li a {
   color: white;
 }
 
 .bg-banner {
-  background-image: url(../images/bannerbg.png);
   height: 100vh;
+  background-image: url("../images/banner_bg.png");
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -29,7 +37,7 @@ nav a {
   align-items: center;
   flex-direction: column;
   align-items: unset;
-  padding: 10%;
+  padding-left: 10%;
 }
 .bg-banner .textBanner p {
   color: #ff9aaa;
@@ -38,12 +46,167 @@ nav a {
   color: #082b49;
   font-weight: 300;
   font-size: 60px;
-  word-spacing: 30px;
+  word-spacing: 40px;
 }
 
-.mujerPerrete {
+.imageDog {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80vh;
+}
+.imageDog img {
+  width: 50%;
+}
+
+.fCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fCenter .textCare {
+  width: 50%;
+}
+
+.bgServices {
+  background-image: url("../images/services_bg.png");
+}
+.bgServices .col-12 {
+  text-align: center;
+  padding: 110px 0;
+}
+.bgServices .card {
+  background-color: transparent;
+  border: 0;
+  align-items: center;
+}
+.bgServices .card img {
+  width: 50%;
+}
+.bgServices .card h5 {
+  text-align: center;
+}
+.bgServices .card p {
+  font-size: 0.8rem;
+  color: #000000ad;
+}
+
+.colLeftAdopt {
+  padding-left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.colLeftAdopt h2 {
+  font-weight: 400;
+  word-spacing: 15px;
+  margin-bottom: 4rem;
+}
+.colLeftAdopt p {
+  font-size: 18px;
+}
+.colLeftAdopt .containerAdopt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colLeftAdopt button {
+  border-radius: 20px;
+  background-color: #53c9bb;
+  border-color: #53c9bb;
+}
+
+.bgMidBanner {
+  margin: 2rem 0;
+  height: 40vh;
+  background-image: url("../images/review_bg.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.help {
+  margin: 10rem 0 3rem;
+}
+.help .imageHelp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.help .textHelp {
+  padding: 6rem 13% 0 0;
+}
+.help .textHelp h2 {
+  font-weight: 400;
+}
+.help .textHelp p {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.help .textHelp button {
+  background-color: #53c9bb;
+  border: #53c9bb;
+  padding: 0.6rem 1rem;
+  border-radius: 1.5rem;
+}
+
+.bgFooter {
+  height: 75vh;
+  margin-top: 8rem;
+  background-image: url("../images/footer_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+.bgFooter .formFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 4rem 0 9rem;
+}
+.bgFooter .formFooter .containerFormGeneral h2 {
+  font-weight: 400;
+}
+.bgFooter .formFooter .containerFormGeneral p {
+  font-weight: 400;
+}
+.bgFooter .formFooter .containerFormGeneral .containerForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bgFooter .formFooter .containerFormGeneral .containerForm input[type=text] {
+  width: 85%;
+  padding: 0.4rem 0.4rem 0.4rem 0.6rem;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  outline: none;
+}
+.bgFooter .formFooter .containerFormGeneral .containerForm button {
+  padding: 0.4rem 0.55rem;
+  border-radius: 0 4px 4px 0;
+  border: 0;
+  outline: none;
+}
+.bgFooter .col-4 {
+  max-width: 24%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8%;
+}
+.bgFooter .col-4 h3 {
+  font-weight: 400;
+}
+.bgFooter .col-4 a {
+  color: #fff;
+  margin: 0.5rem 0;
+}
+.bgFooter .col-4 a:hover {
+  text-decoration: none;
+  filter: brightness(0.8);
 }
