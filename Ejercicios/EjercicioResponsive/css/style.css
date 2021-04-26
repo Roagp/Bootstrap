@@ -1,0 +1,54 @@
+body {
+    color: white;
+  }
+  
+  .bgNav {
+    background-color: #0000c7;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .bgNav a, .bgNav button {
+    color: white !important;
+  }
+  
+  hr {
+    border: 1px solid;
+  }
+  
+  .pad7 {
+    padding: 7% 5%;
+  }
+  
+  .bgBlue {
+    padding: 10% 5%;
+    background-color: #0000c7;
+  }
+  
+  .bgAliquam {
+    background-color: #0096d1;
+  }
+  
+  .bgTempus {
+    background-color: #8a29b8;
+  }
+  
+  .bgMagna {
+    background-color: #c33c1a;
+  }
+  
+  .bgIpsum {
+    background-color: rgba(189, 107, 15, 0.932);
+  }
+  
+  .bgConsequat {
+    background-color: rgba(35, 69, 163, 0.932);
+  }
+  
+  .bgEtiam {
+    background-color: rgba(16, 151, 79, 0.932);
+  }
+  
+  .bgFooter {
+    background-color: #0000c7;
+  }
