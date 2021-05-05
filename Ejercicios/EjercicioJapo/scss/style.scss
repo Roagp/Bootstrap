@@ -1,0 +1,228 @@
+@import "./variables";
+
+body {
+  background-image: url(https://i.pinimg.com/originals/b8/4b/40/b84b4078dfce0bfba65fc10615c3131d.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+header {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .col-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: unset;
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 5rem;
+      letter-spacing: 5px;
+      padding: 15% 10% 5% 10%;
+
+      p {
+        font-style: italic;
+        font-family: $font;
+        font-size: 22px;
+        padding-bottom: 4rem;
+      }
+    }
+  }
+}
+.bg-green {
+  border-top: 2px solid #fff;
+  background-color: #9ccbb9;
+
+  .navbar-toggler {
+    border: 1px solid white;
+
+    .nav-link {
+      color: #fff !important;
+      text-transform: uppercase;
+      font-weight: 900;
+
+      .nav-link img {
+        width: 24px;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+.hero {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 5rem;
+    letter-spacing: 5px;
+    margin: 10% 0 4% 0;
+    width: 70%;
+    text-align: center;
+
+    p {
+      text-align: center;
+      font-style: italic;
+      font-family: ui-sans-serif;
+      margin-bottom: 5% 0;
+      width: 50%;
+      font-size: 18px;
+
+      img {
+        width: 100%;
+        padding: 3%;
+
+        .btn {
+          border-radius: unset;
+          padding: 10px 30px;
+          border: 2px solid black;
+          text-transform: uppercase;
+          font-weight: 800;
+          margin: 2rem 0;
+        }
+      }
+    }
+  }
+}
+.photo-grid {
+  background-color: #fff;
+
+  .card {
+    border-radius: unset;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+
+    .card h5 {
+      text-transform: uppercase;
+      font-weight: 800;
+      font-size: 5rem;
+      letter-spacing: 5px;
+      letter-spacing: 2px;
+      font-size: 18px;
+      width: 50%;
+      margin-bottom: 10%;
+
+      .card p {
+        font-style: italic;
+        font-family: ui-sans-serif;
+        font-style: unset;
+        text-align: justify;
+        padding-top: 5%;
+        font-size: 14px;
+        color: #0000009e;
+        line-height: 2;
+
+        .card .btn {
+          border-radius: unset;
+          padding: 7px 14px;
+          border: 2px solid black;
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
+.bgForm {
+  background-color: #f8f9fa;
+
+  .bg-light {
+    padding: 2rem;
+    border-right: 1px solid #ebedf0;
+
+    .form-group label {
+      font-weight: 700;
+      color:$colorGris;
+
+      .form-group input,
+      .bgForm .form-group .form-control {
+        background-color: #f8f9fa;
+        border-radius: unset;
+        border: 2px solid #ebedf0;
+
+        .btn {
+          border-radius: unset;
+          border: 2px solid $colorGris;
+          font-weight: 700;
+          color: $colorGris;
+          padding: 10px 30px;
+
+          .contact-type {
+            display: flex !important;
+            flex-direction: row !important;
+            background-color: #f8f9fa;
+            width: 100%;
+
+            ul {
+              list-style: none;
+              display: flex;
+              flex-direction: row;
+              justify-content: flex-start;
+
+              ul li {
+                padding: 0 10px;
+
+                ul li a img {
+                  width: 30px;
+                  filter: opacity(0.5);
+                  border: 2px solid $colorGris;
+                  border-radius: 50%;
+                  padding: 5px;
+
+                  .contact_bold {
+                    background-color: #f8f9fa;
+
+                    .row.form-border {
+                      height: 25%;
+                      padding: 4rem 0;
+                      display: flex;
+                      align-items: center;
+                      border-top: 1px solid #ebedf0;
+
+                      .row.form-border .left {
+                        padding-left: 12%;
+                        font-weight: 700;
+                        color: $colorGris;
+
+                        .row.form-border .right {
+                          color: $colorGris;
+
+                          .row.form-border .right span {
+                            border-bottom: 1px dotted #adb4b8;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+footer {
+  text-align: center;
+  margin-top: 5%;
+  font-weight: 700;
+}
